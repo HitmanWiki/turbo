@@ -484,13 +484,13 @@
                         to: "/"
                     }
                 }, [e("a", {
-                    staticClass: "text-blue"
-                }, [t._v("Home")])])], 1), e("li", [e("router-link", {
+                    staticClass: "text-muted"
+                }, [t._v("Turbo Snipping Tools")])])], 1), e("li", [e("router-link", {
                     attrs: {
                         to: "/contracts"
                     }
                 }, [e("a", {
-                    staticClass: "text-dark",
+                    staticClass: "text-muted",
                     staticStyle: {
                         "white-space": "nowrap"
                     }
