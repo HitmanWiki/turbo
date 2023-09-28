@@ -1,0 +1,5 @@
+var render = function render(){var _vm=this,_c=_vm._self._c;return _c('Modal',{attrs:{"active":_vm.active},on:{"close":_vm.handleOk}},[_c('div',{attrs:{"id":"staticBackdrop4","data-mdb-backdrop":"static","data-mdb-keyboard":"false","tabindex":"-1","aria-labelledby":"staticBackdropLabel","aria-hidden":"true"}},[_c('div',{staticClass:"modal-dialog-centered model-width1"},[_c('div',{},[_c('div',{staticClass:"modal-body py-5 px-4"},[_c('div',{staticClass:"text-center"},[_c('img',{attrs:{"src":`img/${_vm.icon}.svg`}}),_c('h3',{staticClass:"mt-4 mb- fs20"},[_c('b',[_vm._v(_vm._s(_vm.title))])]),_c('p',[_vm._v(_vm._s(_vm.content))])]),_c('div',{staticClass:"d-flex justify-content-center flex-wrap align-content-center mt-4"},[_c('div',{staticClass:"col-xl-6 col-6 d-flex text-center"},[_c('a',{staticClass:"btn btn-black d-block w-100 ms-2",on:{"click":_vm.handleOk}},[_vm._v(_vm._s(_vm.btnOk))])])])])])])])])
+}
+var staticRenderFns = []
+
+export { render, staticRenderFns }
